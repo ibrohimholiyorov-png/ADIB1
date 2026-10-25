@@ -519,3 +519,240 @@ tepa {
   object-fit: cover;
   display: block;
 }
+
+
+
+
+
+/* resp */
+
+/* ========== Planshet (900px gacha) ========== */
+@media (max-width: 900px) {
+  .container {
+    width: calc(100% - 60px);
+  }
+
+  header ul {
+    gap: 30px;
+  }
+
+  .on {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .on h1,
+  .p2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .bolachalar {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .pas img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pas {
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .imt {
+    width: 100%;
+  }
+
+  .photo-wrap {
+    width: 320px;
+    height: auto;
+    margin-right: 60px;
+  }
+
+  .circle {
+    right: -60px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .photo {
+    height: auto;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    width: 100%;
+  }
+}
+
+/* ========== Telefon (600px gacha: iPhone, Samsung) ========== */
+@media (max-width: 600px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+
+  /* header */
+  header {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 25px;
+  }
+
+  /* box1 */
+  .box1 {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .on {
+    margin-top: 200px;
+    padding: 30px 25px;
+  }
+
+  .on h1 {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  .p2 {
+    font-size: 16px;
+  }
+
+  /* box2 */
+  .box2 {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .bolachalar {
+    flex-direction: column;
+  }
+
+  /* box3 */
+  .box3 {
+    padding-top: 40px;
+  }
+
+  .pas {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    padding-top: 0;
+  }
+
+  .pas img {
+    padding-bottom: 0;
+  }
+
+  /* sarlavhalar */
+  .tepa {
+    text-align: center;
+  }
+
+  .tepa h2,
+  .imr,
+  .mail h2 {
+    font-size: 26px;
+  }
+
+  .tepa p,
+  .imt {
+    font-size: 16px;
+  }
+
+  /* box4 */
+  .box4 {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .maydachalar {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .photo-wrap {
+    width: calc(100% - 50px);
+    margin: 0 50px 0 0;
+  }
+
+  .circle {
+    right: -50px;
+    width: 150px;
+    height: 150px;
+  }
+
+  /* box5, box6 */
+  .box5 {
+    padding: 50px 0 30px;
+  }
+
+  .box6 {
+    padding: 40px 0 60px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .step-img img {
+    margin-top: 0;
+  }
+
+  .step-img {
+    margin-bottom: 30px;
+  }
+
+  /* mail */
+  .mail {
+    padding: 50px 0;
+  }
+
+  .mail-form input {
+    width: 100%;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .mail-form button {
+    width: 110px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 50px 0;
+  }
+
+  .ig {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
